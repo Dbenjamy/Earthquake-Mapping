@@ -1,5 +1,5 @@
-import Matrix from "./Matrix.js";
-import DataPoint from "./DataPoint.js";
+import Matrix from "https://raw.githubusercontent.com/Dbenjamy/Earthquake-Mapping/master/src/Matrix.js";
+import DataPoint from "https://raw.githubusercontent.com/Dbenjamy/Earthquake-Mapping/master/src/DataPoint.js";
 
 /**
  * The constructor for a PolynomialRegression object an example of it's usage is below
