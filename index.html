@@ -5,12 +5,14 @@
   <!-- Include the CesiumJS JavaScript and CSS files -->
   <script src="https://cdn.jsdelivr.net/npm/js-polynomial-regression@0.9.1/dist/PolynomialRegression.min.js"></script>
   <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script> -->
   <script src="https://cesium.com/downloads/cesiumjs/releases/1.82/Build/Cesium/Cesium.js"></script>
   <link href="https://cesium.com/downloads/cesiumjs/releases/1.82/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
 </head>
 <body>
   <div id="cesiumContainer"></div>
   <script>
+    import React from 'react'
     // Your access token can be found at: https://cesium.com/ion/tokens.
     // This is the default access token from your ion account
     Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIwMTllM2MxMi04ZjQyLTQxZDctYWZkYS1hNjlkNWM5ZjZhNjMiLCJpZCI6OTgxNTQsImlhdCI6MTY1NTY5MzM0OX0.LRNiUXwUBOfv9_0g6nGqzcVMI_7DKuUuJ5emgJhklgU';
